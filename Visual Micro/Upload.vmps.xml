@@ -1,0 +1,14 @@
+<VisualMicro>
+  <Program Name="WMDetection_Arduino" Ext=".pde" Location="C:\Users\Eng Wei\Documents\Arduino\WMDetection_Arduino">
+    <Compile CompilerErrors="0" ConfigurationName="Release" StopOnError="True" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Eng Wei\AppData\Local\VMicro\Arduino\Builds\WMDetection_Arduino\mega2560" IncludeDebug="0" IncludesDebug="0" SketchName="WMDetection_Arduino" IsCompiled="1" />
+    <Platform Name="Arduino">
+      <Board Name="mega2560" Description="Arduino Mega 2560 or Mega ADK" CoreFolder="K:\Google Drive\Hardware\Arduino\arduino-1.0.1\hardware\arduino\cores\arduino" VariantFullPath="K:\Google Drive\Hardware\Arduino\arduino-1.0.1\hardware\arduino\variants\mega" />
+    </Platform>
+    <VCCodeModel>
+      <VCCodeMacros>
+        <VCCodeMacro Name="ARDUINO" Value="101" />
+        <VCCodeMacro Name="__AVR_ATmega2560__" />
+      </VCCodeMacros>
+    </VCCodeModel>
+  </Program>
+</VisualMicro>
