@@ -67,6 +67,7 @@ void loop()
 
 void collectData()
 {
+	//Top Xbee
 	xbee_t.readPacket(20) ;
 	if (xbee_t.getResponse().isAvailable()) {
 		if (xbee_t.getResponse().getApiId() == RX_16_RESPONSE) {
@@ -83,7 +84,7 @@ void collectData()
 
 	Serial.print(" ");
 	xbee_m.readPacket(20);
-	//Middle XBees
+	//Middle XBee
 	if (xbee_m.getResponse().isAvailable()) {
 		if (xbee_m.getResponse().getApiId() == RX_16_RESPONSE) {
             xbee_m.getResponse().getRx16Response(rx16_m);
@@ -98,6 +99,7 @@ void collectData()
 	} else Serial.print("*");
 	
 	Serial.print(" ");
+	//Bottom Xbee
 	xbee_d.readPacket(20);
 	if (xbee_d.getResponse().isAvailable()) {
 		if (xbee_d.getResponse().getApiId() == RX_16_RESPONSE) {
