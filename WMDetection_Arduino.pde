@@ -83,6 +83,7 @@ void collectData()
 
 	Serial.print(" ");
 	xbee_m.readPacket(20);
+	//Middle XBee
 	if (xbee_m.getResponse().isAvailable()) {
 		if (xbee_m.getResponse().getApiId() == RX_16_RESPONSE) {
             xbee_m.getResponse().getRx16Response(rx16_m);
