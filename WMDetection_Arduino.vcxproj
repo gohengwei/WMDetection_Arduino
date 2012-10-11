@@ -63,12 +63,17 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>K:\Google Drive\Hardware\Arduino\arduino-1.0.1\hardware\arduino\cores\arduino;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\hardware\arduino\variants\mega;C:\Users\Eng Wei\Documents\Arduino\libraries\i2cLCD;C:\Users\Eng Wei\Documents\Arduino\libraries\i2cLCD\utility;C:\Users\Eng Wei\Documents\Arduino\libraries\Xbee;C:\Users\Eng Wei\Documents\Arduino\libraries\Xbee\utility;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\SPI;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\SPI\utility;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\SD;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\SD\utility;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\Wire;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\Wire\utility;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\Servo;K:\Google Drive\Hardware\Arduino\arduino-1.0.1\libraries\Servo\utility;k:\google drive\hardware\arduino\arduino-1.0.1\hardware\tools\avr\avr\include\;k:\google drive\hardware\arduino\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;k:\google drive\hardware\arduino\arduino-1.0.1\hardware\tools\avr\avr\;k:\google drive\hardware\arduino\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="WMDetection_Arduino.pde">
